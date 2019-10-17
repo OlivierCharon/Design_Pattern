@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
     <list default="true" id="6cc91b0e-64ea-4d71-9478-ee446a734ec2" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -29,7 +33,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -45,7 +53,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
         <entry file="file://$PROJECT_DIR$/Autoloader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -61,7 +73,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
         <entry file="file://$PROJECT_DIR$/adminer.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -84,7 +100,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -156,7 +176,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
         <entry file="file://$PROJECT_DIR$/model/characterCreateModel.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -171,7 +195,11 @@
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
   <component name="FindInProjectRecents">
     <findStrings>
       <find>fetch</find>
@@ -185,7 +213,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
         <option value="$PROJECT_DIR$/sqlRequete/read.php" />
         <option value="$PROJECT_DIR$/sqlRequete/add.php" />
         <option value="$PROJECT_DIR$/sqlRequete/update.php" />
@@ -250,7 +282,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
       <pane id="Scope" />
 =======
 >>>>>>> 0450e07b4ebc456d23d45face18b9de5faa9f733
@@ -258,7 +294,11 @@
         <subPane>
           <expand>
             <path>
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
               <item name="Design_Pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="Design_Pattern" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -300,7 +340,11 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,7 +399,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
       <changelist id="6cc91b0e-64ea-4d71-9478-ee446a734ec2" name="Default Changelist" comment="" />
       <created>1571144858221</created>
       <option name="number" value="Default" />
@@ -378,7 +426,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
     <option name="totallyTimeSpent" value="11944000" />
   </component>
   <component name="ToolWindowManager">
@@ -417,7 +469,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38293216" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -446,7 +502,11 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
  
+=======
+<<<<<<< HEAD
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
     <entry file="file://$PROJECT_DIR$/classes/Character.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="516">

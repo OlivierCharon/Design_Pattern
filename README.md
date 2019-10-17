@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# Design Pattern
+
+## Sujet
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
 
 Beaucoup plus compliqué à faire que simplement de la PDO.
  Points négatifs :
@@ -10,4 +16,8 @@ Beaucoup plus compliqué à faire que simplement de la PDO.
   - Le système de conbat est présent et fonctionnel
   - les heros sont crées normalement, tu n'as pas le choix du LVL, ni des dommages qu'il inflige
   - De même pour l'update, tu ne peux que changer le nom.( Ca rest eun jeu, ca serait du cheat si tu pouvais changer tes caractéristiques !).
+<<<<<<< HEAD
   - La suppression ne se fait que lors de la mort d'un perso ou d'un monstre.
+=======
+  - La suppression ne se fait que lors de la mort d'un perso ou d'un monstre.
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6

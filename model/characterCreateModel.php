@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
     require './db.php';
     
     $getAllWeapon = SPDO::getInstance()->query("SELECT idWeapon, nameWeapon FROM Weapon");
@@ -22,3 +23,9 @@
         SPDO::getInstance()->query("INSERT INTO Characters (nameChara, health, mana, lvl, damage, weapon_id, job_id) VALUES('$name', $health, $mana, 1, 10, $weapon, $job)");
         header('Location: ./'); 
     }
+=======
+    require_once '../db.php';
+    
+    // CREATE ONE CHARACTER
+    SPDO::getInstance()->query("INSERT INTO Characters (nameChara, health, mana, lvl, damage, weapon_id, job_id) VALUES('$name', $health, $mana, 1, 10, $weapon, $job)");
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6

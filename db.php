@@ -2,6 +2,7 @@
    
     class SPDO
     {
+<<<<<<< HEAD
         /**
          * Constante: nom d'utilisateur de la bdd
          *
@@ -63,6 +64,19 @@
          * @param void
          * @return PDO $instance
          */
+=======
+        const USER = 'root';
+        const HOST = 'localhost';
+        const PASS = '0000';
+        const DBNAME = 'pooCharacters';
+        private static $instance = null;
+
+        private function __construct()
+        {
+            $this->instance = new PDO('mysql:dbname=' . self::DBNAME . ';host=' . self::HOST, self::USER, self::PASS);
+        }
+
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
         public static function getInstance()
         {
             if (is_null(self::$instance)) {
@@ -71,6 +85,7 @@
             return self::$instance;
         }
        
+<<<<<<< HEAD
         /**
          * Exécute une requête SQL avec PDO
          *
@@ -86,4 +101,7 @@
         {
             return $this->PDOInstance->prepare($statement);
         }
+=======
+        
+>>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
     }
