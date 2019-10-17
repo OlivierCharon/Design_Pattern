@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+ 
+      <module fileurl="file://$PROJECT_DIR$/.idea/Design_Pattern.iml" filepath="$PROJECT_DIR$/.idea/Design_Pattern.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bacon_Project.iml" filepath="$PROJECT_DIR$/.idea/Bacon_Project.iml" />
+>>>>>>> 0450e07b4ebc456d23d45face18b9de5faa9f733
+    </modules>
+  </component>
+</project>
