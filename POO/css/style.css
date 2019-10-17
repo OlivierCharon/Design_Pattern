@@ -1,0 +1,29 @@
+body {
+    line-height: 35px;
+}
+
+main {
+    width: 75%;
+    margin: 100px auto;
+}
+
+.char1 {
+    color:red;
+}
+
+.char2 {
+    color: blue;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.h-cards-container, .d-cards-container, .s-cards-container, .c-cards-container {
+    display: flex;
+}
+
+.card-img {
+    width: 100%;
+    margin: 15px 0;
+}
