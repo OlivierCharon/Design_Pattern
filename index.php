@@ -4,7 +4,7 @@
     if (isset($_GET['url'])) {
         $url = explode('/', $_GET['url']);
     }
-    require_once 'header.php';
+    require_once 'layout/header.php';
     if (isset($url[0])) {
         switch ($url[0]) {
             case 'homeController':
@@ -24,4 +24,4 @@
     } else {
         require 'controller/homeController.php';
     }
-    require_once 'footer.php';
+    require_once 'layout/footer.php';
