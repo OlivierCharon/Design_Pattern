@@ -4,8 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
  */
 body {
-  height: 200vh;
-
   padding: 0;
 }
 
@@ -16,16 +14,14 @@ header {
     justify-content: center;
 }
 main {
-    height: 80vh;
-    margin: 150px auto;
+    margin: 50px auto;
 }
 
 .element-perso {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 100px 0;
-
+    margin: 50px 0;
 }
 .addCss {
   display: flex;
@@ -48,11 +44,6 @@ main {
 .form {
   height: 100%; 
 }
-.row {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
 
 .ajouter_style {
   height: 100%!important;
@@ -66,8 +57,6 @@ h4{
 }
 .title {
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .style-form {
@@ -89,5 +78,131 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-primary {
 
 nav.navbar.navbar-expand-lg.navbar-dark.bg-primary a {
 font-size: 32px;
+}
 
+p.card-text {
+    margin: 3px 0;
+}
+
+.cards-list {
+    z-index: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    display: flex;
+}
+
+.card .card_image img {
+    width: 80%;
+    border-radius: 40px;
+    object-fit: cover;
+    height: 80%;
+    margin: auto;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25),
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+    color: white;
+}
+
+.title-black {
+    color: black;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        /* On small screens, we are no longer using row direction but column */
+        flex-direction: column;
+    }
+}
+
+
+.overlay {
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+    margin: 30px auto;
+    border-radius: 40px;
+    box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+}
+
+.perso-style:hover .overlay {
+    opacity: 1;
+}
+
+.action-buttons {
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#character-selected #preview, #character-selected #action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#character-selected #action-buttons {
+    flex-direction: column;
+}
+
+#character-selected #action-buttons .row {
+    margin: 10px 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+form[action="characterCreateController"] {
+    width: 80%;
 }
