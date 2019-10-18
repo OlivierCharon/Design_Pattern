@@ -11,8 +11,8 @@
                     <p class="card-text">Niveau : <?= $character['lvl'] ?> </p>
                     <p class="card-text">Job : <?= $character['nameJob'] ?> </p>
                     <p class="card-text">Arme : <?= $character['nameWeapon'] ?> </p>
-                    <a href="characterUpdate.php?idChara=<?= $character['idChara'] ?>" class="btn btn-primary">Modifier</a>
-                    <a href="fight.php?idChara=<?= $character['idChara'] ?>" class="btn btn-success">Combattre</a>
+                    <a href="/characterUpdateController/<?= $character['idChara'] ?>" class="btn btn-primary">Modifier</a>
+                    <a href="/monsterChooseController/<?= $character['idChara'] ?>" class="btn btn-success">Combattre</a>
                 </div>
             </div>
                 <?php endforeach ?>
