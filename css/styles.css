@@ -5,6 +5,7 @@
  */
 body {
   height: 200vh;
+
   padding: 0;
 }
 
@@ -19,14 +20,12 @@ main {
     margin: 150px auto;
 }
 
-footer {
-    height: 10vh;
-}
 .element-perso {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 100px 0;
+
 }
 .addCss {
   display: flex;

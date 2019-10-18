@@ -1,5 +1,6 @@
 <?php
     
+    
     class SPDO
     {
         /**
@@ -54,15 +55,6 @@
         {
             $this->PDOInstance = new PDO('mysql:dbname=' . self::DBNAME . ';host=' . self::HOST, self::USER, self::PASS);
         }
-        
-        /**
-         * Crée et retourne l'objet SPDO
-         *
-         * @access public
-         * @static
-         * @param void
-         * @return PDO $instance
-         */
         
         public static function getInstance()
         {

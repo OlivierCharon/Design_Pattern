@@ -2,7 +2,6 @@
 
 ## Sujet
 
-
 Beaucoup plus compliqué à faire que simplement de la PDO.
  Points négatifs :
  - Je n'ai pas réussi à faire l'hydratation, pas le temps ni la compréhension suffisante de la chose pourvoir la mettre en pratique et la faire fonctionner.

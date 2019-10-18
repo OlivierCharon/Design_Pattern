@@ -25,4 +25,3 @@
         require 'controller/homeController.php';
     }
     require_once 'footer.php';
-

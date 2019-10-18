@@ -1,6 +1,5 @@
 <?php
     
-    
     class HomeController
     {
         
@@ -8,7 +7,6 @@
         {
             require './model/homeModel.php';
             require './view/home.php';
-            
         }
         
         public function character()
