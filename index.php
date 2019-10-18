@@ -1,5 +1,5 @@
 <?php
-    
+    require 'db/db.php';
     $url = '';
     if (isset($_GET['url'])) {
         $url = explode('/', $_GET['url']);
@@ -17,7 +17,7 @@
             
             default:
                 header($_SERVER["SERVER_PROTOCOL"] . " 404 Not Found");
-                require '404.php';
+                require 'layout/404.php';
                 exit;
             
         }

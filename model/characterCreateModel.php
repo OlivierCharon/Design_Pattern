@@ -1,7 +1,4 @@
 <?php
-
-    require './db.php';
-    
     $getAllWeapon = SPDO::getInstance()->query("SELECT idWeapon, nameWeapon FROM Weapon");
     $getAllWeapon->execute();
     $donneesWeapon = $getAllWeapon->fetchAll(PDO::FETCH_ASSOC);

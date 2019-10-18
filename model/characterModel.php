@@ -1,6 +1,4 @@
 <?php
-    require_once '../db.php';
-
     $idChara = $_POST['idChara'];
     
     // GET ALL THE CHARACTERS
