@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
- 
-=======
-<<<<<<< HEAD
->>>>>>> 0056bd2f6d0b086557a2cb5c8a91c81f2120d3f6
       <module fileurl="file://$PROJECT_DIR$/.idea/Design_Pattern.iml" filepath="$PROJECT_DIR$/.idea/Design_Pattern.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/Bacon_Project.iml" filepath="$PROJECT_DIR$/.idea/Bacon_Project.iml" />
->>>>>>> 0450e07b4ebc456d23d45face18b9de5faa9f733
+
     </modules>
   </component>
 </project>
