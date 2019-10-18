@@ -9,6 +9,7 @@ DROP TABLE IF EXISTS `Characters`;
 CREATE TABLE `Characters` (
   `idChara` int(11) NOT NULL AUTO_INCREMENT,
   `nameChara` varchar(255) NOT NULL,
+  `icon` varchar(255) NOT NULL DEFAULT 'nan.png',
   `health` int(10) NOT NULL,
   `mana` int(10) NOT NULL,
   `lvl` int(10) NOT NULL,
@@ -20,20 +21,23 @@ CREATE TABLE `Characters` (
   KEY `job_id` (`job_id`),
   CONSTRAINT `Characters_ibfk_2` FOREIGN KEY (`weapon_id`) REFERENCES `Weapon` (`idWeapon`),
   CONSTRAINT `Characters_ibfk_3` FOREIGN KEY (`job_id`) REFERENCES `Job` (`idJob`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `Characters` (`idChara`, `nameChara`, `health`, `mana`, `lvl`, `damage`, `weapon_id`, `job_id`) VALUES
-(1,	'Olivier',	100,	50,	1,	20,	2,	2),
-(2,	'Reivilo',	100,	70,	2,	25,	3,	3),
-(3,	'Wissem',	70,	100,	6,	40,	1,	1),
-(10,	'Clement le Simple',	20,	20,	1,	10,	3,	3);
+INSERT INTO `Characters` (`idChara`, `nameChara`, `icon`, `health`, `mana`, `lvl`, `damage`, `weapon_id`, `job_id`) VALUES
+(1,	'Olivier',	'olivier.png',	100,	50,	1,	20,	2,	2),
+(2,	'Reivilo',	'reivilo.png',	100,	70,	2,	25,	3,	3),
+(3,	'Wissem',	'wissem.png',	70,	100,	6,	40,	1,	1),
+(10,	'Clement le Simple',	'clement_le_simple.png',	20,	20,	1,	10,	3,	3),
+(11,	'dqfgshfd',	'nan.png',	45,	156,	1,	10,	3,	1),
+(12,	'sDQFSGDHFJGHJH',	'nan.png',	465123,	65123,	1,	10,	1,	1),
+(13,	'dqzfesghd',	'nan.png',	1565,	62,	1,	10,	1,	1);
 
 DROP TABLE IF EXISTS `Job`;
 CREATE TABLE `Job` (
   `idJob` int(11) NOT NULL AUTO_INCREMENT,
   `nameJob` varchar(255) NOT NULL,
   PRIMARY KEY (`idJob`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `Job` (`idJob`, `nameJob`) VALUES
 (1,	'Mage'),
@@ -47,7 +51,7 @@ CREATE TABLE `Monster` (
   `health` int(11) NOT NULL,
   `damage` int(11) NOT NULL,
   PRIMARY KEY (`idMonster`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `Monster` (`idMonster`, `nameMonster`, `health`, `damage`) VALUES
 (1,	'Smile',	50,	5),
@@ -60,11 +64,11 @@ CREATE TABLE `Weapon` (
   `nameWeapon` varchar(255) NOT NULL,
   `damageWeapon` int(4) NOT NULL,
   PRIMARY KEY (`idWeapon`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `Weapon` (`idWeapon`, `nameWeapon`, `damageWeapon`) VALUES
 (1,	'un baton magique',	12),
 (2,	'une lame courte',	25),
 (3,	'une grosse lame',	27);
 
--- 2019-09-26 09:45:03
+-- 2019-10-18 10:55:08

@@ -1,3 +1,4 @@
+
 <div class="row">
     <div class="col-md-12">
         <h1 class="title">Choisissez votre personnage <br> ou <a href="/characterCreateController">créez en un</a></h1>
@@ -10,13 +11,13 @@
     </div>
     <div class="col-md-2" id="action-buttons">
         <div class="row">
-        <a href="/characterUpdateController/<?= $character['idChara'] ?>" 
-               class="col-md-12 btn btn-primary">Modifier</a>
+        <a href="/characterUpdateController/<?= $characters[0]['idChara'] ?>" class="col-md-12 btn btn-primary">Modifier</a>
         </div>
         <div class="row">
-        <a href="/monsterChooseController/<?= $character['idChara'] ?>"
-               class="col-md-12 btn btn-success">Combattre</a>
+        <a href="/monsterChooseController/<?= $characters[0]['idChara'] ?>" class="bcol-md-12 btn btn-success">Combattre</a>
         </div>
+        
+        
     </div>
 </div>
 

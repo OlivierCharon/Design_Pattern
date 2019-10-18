@@ -16,8 +16,8 @@ $idChara = str_replace("'","",$_GET['idChara']);
 $getCharacters = SPDO::getInstance()->query("SELECT * FROM Characters JOIN Weapon ON Characters.weapon_id = Weapon.idWeapon JOIN Job ON Characters.job_id = Job.idJob WHERE idChara = $idChara ");
 $getMonster = SPDO::getInstance()->query("SELECT * FROM Monster WHERE idMonster = $idMonster ");
 
-$getCharacters->execute();
-$getMonster->execute();
+// $getCharacters->execute();
+// $getMonster->execute();
 
 $characterFighting = $getCharacters->fetch(PDO::FETCH_ASSOC);
 $monsterFighting = $getMonster->fetch(PDO::FETCH_ASSOC);
