@@ -10,11 +10,11 @@
     </div>
     <div class="col-md-2" id="action-buttons">
         <div class="row">
-            <a href="characterUpdate.php?idChara=<?= $characters[0]['idChara'] ?>"
+        <a href="/characterUpdateController/<?= $character['idChara'] ?>" 
                class="col-md-12 btn btn-primary">Modifier</a>
         </div>
         <div class="row">
-            <a href="fight.php?idChara=<?= $characters[0]['idChara'] ?>"
+        <a href="/monsterChooseController/<?= $character['idChara'] ?>"
                class="col-md-12 btn btn-success">Combattre</a>
         </div>
     </div>
