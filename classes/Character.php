@@ -135,7 +135,7 @@ class Character implements CombatZone
 
     public static function dead($idChara)
     {
-    
+        SPDO::getInstance()->query("DELETE FROM Characters WHERE idChara = $idChara ");        
     }
 
     // Methode non statiques

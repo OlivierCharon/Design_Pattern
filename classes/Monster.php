@@ -39,14 +39,10 @@ class Monster implements CombatZone
 
     public static function dead($idMonster)
     {
-        $dbhost = "localhost";
-        $dbname = "pooCharacters";
-        $dbusername = "root";
-        $dbpassword = "0000";
-
-        $link = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbusername, $dbpassword);
         $requeteDelete = $link->prepare("DELETE FROM Monster WHERE idMonster = $idMonster ");
-        $requeteDelete->execute();
+        
+        SPDO::getInstance()->query("DELETE FROM Monster WHERE idMonster = $idMonster ");        
+    
         
     }
 
